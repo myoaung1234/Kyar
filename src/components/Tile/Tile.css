@@ -3,6 +3,7 @@
     height: 62.5px;
     display: grid;
     place-content: center;
+    cursor: pointer;
 }
 
 .black-tile {
@@ -15,4 +16,9 @@
 
 .gold-tile {
     background-color: goldenrod;
+}
+
+.id{
+    position: absolute;
+    color: red;
 }

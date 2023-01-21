@@ -1,7 +1,8 @@
 import React from 'react';
 import './Tile.css';
 
-const Tile = ({number, image, moveTile, selectTile, id, selectedTile}) => {
+const Tile = ({number, image, moveTile, selectTile, id, selectedTile, movable}) => {
+  
   let onTileClick = () => {
     //check whether tile is with image or not
     
@@ -19,6 +20,7 @@ const Tile = ({number, image, moveTile, selectTile, id, selectedTile}) => {
           {
             image ? <img src={image} alt='' />: null
           }
+          <span className='id'>{id}</span>
         </div>
       )
     } else {
@@ -27,6 +29,7 @@ const Tile = ({number, image, moveTile, selectTile, id, selectedTile}) => {
         {
           image ? <img src={image} alt="" />: null
         }
+          
       </div>
       )
     }

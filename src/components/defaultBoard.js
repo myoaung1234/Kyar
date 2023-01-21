@@ -3,7 +3,8 @@ export const defaultBoard = [
 "key":"7,0",
 "number":9,
 "x":0,
-"y":7
+"y":7,
+"movable": false,
 },
 {
 "key":"7,1",
@@ -11,13 +12,16 @@ export const defaultBoard = [
 "player": 2,
 "number":10,
 "x":1,
-"y":7
+"y":7,
+"becomeKing": true,
+"movable": true,
 },
 {
 "key":"7,2",
 "number":11,
 "x":2,
-"y":7
+"y":7,
+"movable": false,
 },
 {
 "key":"7,3",
@@ -25,13 +29,16 @@ export const defaultBoard = [
 "player": 2,
 "number":12,
 "x":3,
-"y":7
+"y":7,
+"becomeKing": true,
+"movable": true,
 },
 {
 "key":"7,4",
 "number":13,
 "x":4,
-"y":7
+"y":7,
+"movable": false,
 },
 {
 "key":"7,5",
@@ -39,13 +46,16 @@ export const defaultBoard = [
 "player": 2,
 "number":14,
 "x":5,
-"y":7
+"y":7,
+"becomeKing": true,
+"movable": true,
 },
 {
 "key":"7,6",
 "number":15,
 "x":6,
-"y":7
+"y":7,
+"movable": false,
 },
 {
 "key":"7,7",
@@ -53,7 +63,9 @@ export const defaultBoard = [
 "player": 2,
 "number":16,
 "x":7,
-"y":7
+"y":7,
+"becomeKing": true,
+"movable": true,
 },
 {
 "key":"6,0",
@@ -61,13 +73,16 @@ export const defaultBoard = [
 "player": 2,
 "number":8,
 "x":0,
-"y":6
+"y":6,
+"movable": true,
 },
 {
 "key":"6,1",
 "number":9,
 "x":1,
-"y":6
+"y":6,
+"movable": false,
+
 },
 {
 "key":"6,2",
@@ -75,13 +90,15 @@ export const defaultBoard = [
 "player": 2,
 "number":10,
 "x":2,
-"y":6
+"y":6,
+"movable": true,
 },
 {
 "key":"6,3",
 "number":11,
 "x":3,
-"y":6
+"y":6,
+"movable": false,
 },
 {
 "key":"6,4",
@@ -89,13 +106,15 @@ export const defaultBoard = [
 "player": 2,
 "number":12,
 "x":4,
-"y":6
+"y":6,
+"movable": true,
 },
 {
 "key":"6,5",
 "number":13,
 "x":5,
-"y":6
+"y":6,
+"movable": false,
 },
 {
 "key":"6,6",
@@ -103,19 +122,22 @@ export const defaultBoard = [
 "player": 2,
 "number":14,
 "x":6,
-"y":6
+"y":6,
+"movable": true,
 },
 {
 "key":"6,7",
 "number":15,
 "x":7,
-"y":6
+"y":6,
+"movable": false,
 },
 {
 "key":"5,0",
 "number":7,
 "x":0,
-"y":5
+"y":5,
+"movable": false,
 },
 {
 "key":"5,1",
@@ -123,13 +145,15 @@ export const defaultBoard = [
 "player": 2,
 "number":8,
 "x":1,
-"y":5
+"y":5,
+"movable": true,
 },
 {
 "key":"5,2",
 "number":9,
 "x":2,
-"y":5
+"y":5,
+"movable": false,
 },
 {
 "key":"5,3",
@@ -137,13 +161,15 @@ export const defaultBoard = [
 "player": 2,
 "number":10,
 "x":3,
-"y":5
+"y":5,
+"movable": true,
 },
 {
 "key":"5,4",
 "number":11,
 "x":4,
-"y":5
+"y":5,
+"movable": false,
 },
 {
 "key":"5,5",
@@ -151,13 +177,15 @@ export const defaultBoard = [
 "player": 2,
 "number":12,
 "x":5,
-"y":5
+"y":5,
+"movable": true,
 },
 {
 "key":"5,6",
 "number":13,
 "x":6,
-"y":5
+"y":5,
+"movable": false,
 },
 {
 "key":"5,7",
@@ -165,103 +193,120 @@ export const defaultBoard = [
 "player": 2,
 "number":14,
 "x":7,
-"y":5
+"y":5,
+"movable": true,
 },
 {
 "key":"4,0",
 "number":6,
 "x":0,
-"y":4
+"y":4,
+"movable": true,
 },
 {
 "key":"4,1",
 "number":7,
 "x":1,
-"y":4
+"y":4,
+"movable": false,
 },
 {
 "key":"4,2",
 "number":8,
 "x":2,
-"y":4
+"y":4,
+"movable": true,
 },
 {
 "key":"4,3",
 "number":9,
 "x":3,
-"y":4
+"y":4,
+"movable": false,
 },
 {
 "key":"4,4",
 "number":10,
 "x":4,
-"y":4
+"y":4,
+"movable": true,
 },
 {
 "key":"4,5",
 "number":11,
 "x":5,
-"y":4
+"y":4,
+"movable": false,
 },
 {
 "key":"4,6",
 "number":12,
 "x":6,
-"y":4
+"y":4,
+"movable": true,
 },
 {
 "key":"4,7",
 "number":13,
 "x":7,
-"y":4
+"y":4,
+"movable": false,
 },
 {
 "key":"3,0",
 "number":5,
 "x":0,
-"y":3
+"y":3,
+"movable": false,
 },
 {
 "key":"3,1",
 "number":6,
 "x":1,
-"y":3
+"y":3,
+"movable": true,
 },
 {
 "key":"3,2",
 "number":7,
 "x":2,
-"y":3
+"y":3,
+"movable": false,
 },
 {
 "key":"3,3",
 "number":8,
 "x":3,
-"y":3
+"y":3,
+"movable": true,
 },
 {
 "key":"3,4",
 "number":9,
 "x":4,
-"y":3
+"y":3,
+"movable": false
 },
 {
 "key":"3,5",
 "number":10,
 "x":5,
-"y":3
+"y":3,
+"movable": true
 },
 {
 "key":"3,6",
 "number":11,
 "x":6,
-"y":3
+"y":3,
+"movable": false
 },
 {
 "key":"3,7",
 "number":12,
 "x":7,
-"y":3
+"y":3,
+"movable": true
 },
 {
 "key":"2,0",
@@ -269,13 +314,15 @@ export const defaultBoard = [
 "player": 1,
 "number":4,
 "x":0,
-"y":2
+"y":2,
+"movable": true
 },
 {
 "key":"2,1",
 "number":5,
 "x":1,
-"y":2
+"y":2,
+"movable": false
 },
 {
 "key":"2,2",
@@ -283,13 +330,15 @@ export const defaultBoard = [
 "player": 1,
 "number":6,
 "x":2,
-"y":2
+"y":2,
+"movable": true
 },
 {
 "key":"2,3",
 "number":7,
 "x":3,
-"y":2
+"y":2,
+"movable": false
 },
 {
 "key":"2,4",
@@ -297,13 +346,15 @@ export const defaultBoard = [
 "player": 1,
 "number":8,
 "x":4,
-"y":2
+"y":2,
+"movable": true
 },
 {
 "key":"2,5",
 "number":9,
 "x":5,
-"y":2
+"y":2,
+"movable": false
 },
 {
 "key":"2,6",
@@ -311,19 +362,22 @@ export const defaultBoard = [
 "player": 1,
 "number":10,
 "x":6,
-"y":2
+"y":2,
+"movable": true
 },
 {
 "key":"2,7",
 "number":11,
 "x":7,
-"y":2
+"y":2,
+"movable": false
 },
 {
 "key":"1,0",
 "number":3,
 "x":0,
-"y":1
+"y":1,
+"movable": false
 },
 {
 "key":"1,1",
@@ -331,13 +385,15 @@ export const defaultBoard = [
 "player": 1,
 "number":4,
 "x":1,
-"y":1
+"y":1,
+"movable": true
 },
 {
 "key":"1,2",
 "number":5,
 "x":2,
-"y":1
+"y":1,
+"movable": false
 },
 {
 "key":"1,3",
@@ -345,13 +401,15 @@ export const defaultBoard = [
 "player": 1,
 "number":6,
 "x":3,
-"y":1
+"y":1,
+"movable": true
 },
 {
 "key":"1,4",
 "number":7,
 "x":4,
-"y":1
+"y":1,
+"movable": false
 },
 {
 "key":"1,5",
@@ -359,13 +417,15 @@ export const defaultBoard = [
 "player": 1,
 "number":8,
 "x":5,
-"y":1
+"y":1,
+"movable": true
 },
 {
 "key":"1,6",
 "number":9,
 "x":6,
-"y":1
+"y":1,
+"movable": false
 },
 {
 "key":"1,7",
@@ -373,7 +433,8 @@ export const defaultBoard = [
 "player": 1,
 "number":10,
 "x":7,
-"y":1
+"y":1,
+"movable": true
 },
 {
 "key":"0,0",
@@ -381,13 +442,16 @@ export const defaultBoard = [
 "player": 1,
 "number":2,
 "x":0,
-"y":0
+"y":0,
+"becomeKing": true,
+"movable": true
 },
 {
 "key":"0,1",
 "number":3,
 "x":1,
-"y":0
+"y":0,
+"movable": false
 },
 {
 "key":"0,2",
@@ -395,13 +459,16 @@ export const defaultBoard = [
 "player": 1,
 "number":4,
 "x":2,
-"y":0
+"y":0,
+"becomeKing": true,
+"movable": true
 },
 {
 "key":"0,3",
 "number":5,
 "x":3,
-"y":0
+"y":0,
+"movable": false
 },
 {
 "key":"0,4",
@@ -409,13 +476,16 @@ export const defaultBoard = [
 "player": 1,
 "number":6,
 "x":4,
-"y":0
+"y":0,
+"becomeKing": true,
+"movable": true
 },
 {
 "key":"0,5",
 "number":7,
 "x":5,
-"y":0
+"y":0,
+"movable": false
 },
 {
 "key":"0,6",
@@ -423,12 +493,15 @@ export const defaultBoard = [
 "player": 1,
 "number":8,
 "x":6,
-"y":0
+"y":0,
+"becomeKing": true,
+"movable": true
 },
 {
 "key":"0,7",
 "number":9,
 "x":7,
-"y":0
+"y":0,
+"movable": false
 }
 ];
